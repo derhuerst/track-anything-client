@@ -16,7 +16,7 @@ npm install track-anything-client
 
 ## Usage
 
-`track(host, tracker, key)([cb])`
+`track({host: …, port: …, tracker: …, key: …})([cb])`
 
 
 ## Contributing
