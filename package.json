@@ -9,5 +9,8 @@
 	"homepage":    "https://github.com/derhuerst/track-anything-client",
 	"repository":  "derhuerst/track-anything-client",
 	"license":     "ISC",
-	"engines":     {"node": ">=6"}
+	"engines":     {"node": ">=6"},
+	"dependencies": {
+		"stream-sink": "^1.2"
+	}
 }
