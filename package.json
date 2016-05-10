@@ -1,0 +1,13 @@
+{
+	"name":        "track-anything-client",
+	"description": "Client for track-anything-api.",
+	"version":     "0.1.0",
+	"main":        "index.js",
+	"files":       ["index.js"],
+	"keywords":    ["track", "events", "http", "analytics", "api", "client"],
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/track-anything-client",
+	"repository":  "derhuerst/track-anything-client",
+	"license":     "ISC",
+	"engines":     {"node": ">=6"}
+}
