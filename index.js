@@ -26,7 +26,7 @@ const tracker = (opt = {}) => {
 		req.on('error', cb)
 		req.on('response', (res) => {
 			if (200 <= res.statusCode && res.statusCode < 300) return cb()
-			res.pipe(sink()).on('data', (body) => {
+			res.pipe(sink()).then((body) => {
 				try {body = JSON.parse(body)}
 				catch (e) {cb(new Error('Invalid response.'))}
 				cb(new Error(body.msg))

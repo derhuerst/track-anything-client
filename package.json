@@ -11,6 +11,6 @@
 	"license":     "ISC",
 	"engines":     {"node": ">=6"},
 	"dependencies": {
-		"stream-sink": "^1.2"
+		"stream-sink": "^2"
 	}
 }
